@@ -1,0 +1,6 @@
+Omics,Samples,Features
+Mutation,370,500
+CNV,370,1200
+Methylation,370,2000
+RNA-seq,370,3000
+miRNA,370,400

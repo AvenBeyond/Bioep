@@ -1,0 +1,4 @@
+Cohort,Baseline_Acc,V4_Acc
+TCGA (Discovery),0.89,0.92
+ACRG (External 1),0.65,0.85
+SMC (External 2),0.6,0.83

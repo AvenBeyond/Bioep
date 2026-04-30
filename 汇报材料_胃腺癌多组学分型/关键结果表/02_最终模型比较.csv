@@ -1,0 +1,8 @@
+method,modality_set,k,silhouette,stability,clinical_separation_os,clinical_separation_pfi,cluster_balance,selected_as_final,why_selected
+early_fusion_kmeans,main4,2,0.0688035222609782,0.8938950780970014,,,0.9057591623036648,False,reference_main4_round1
+early_fusion_spectral,main4,3,-0.0487575006863899,0.055613016377998,,,0.2484848484848484,False,reference_main4_round1
+equal_weight_fusion,main4,2,0.0913045114197778,0.0042082991838128,,,0.0027548209366391,False,reference_main4_round1
+early_fusion_kmeans,main5,2,0.052715379105162,0.8565949020423187,0.0013955544108363,0.0240308007219776,0.7089201877934272,True,best_ablation_rank_under_internal_validation
+early_fusion_spectral,main5,2,0.0494667011101376,0.4909949524831046,0.0702205504170003,0.0361027818012464,0.5041322314049587,False,main5_baseline_candidate
+equal_weight_fusion,main5,2,-0.0153590897039251,0.0042558370376183,0.4143186330355493,0.4442742435394816,0.0027548209366391,False,main5_baseline_candidate
+proposed_weighted_fusion,main5,2,-0.0153590897039251,,0.4143186330355493,0.4442742435394816,0.0027548209366391,False,proposed_candidate

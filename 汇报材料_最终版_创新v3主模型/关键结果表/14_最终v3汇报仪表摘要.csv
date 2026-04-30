@@ -1,0 +1,8 @@
+item,value,denominator
+v3_core_metric_wins,7,9
+seed_label_agreement_min,0.9917582417582418,1
+seed_label_agreement_mean,0.9956043956043956,1
+seed_core_win_rate,0.8,1
+best_classifier,SVM,
+best_classifier_accuracy,0.9354261796042618,1
+best_classifier_macro_f1,0.9337044130749168,1

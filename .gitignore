@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Results and logs
+results/figures/*
+results/tables/*
+results/models/*
+results/logs/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/models/.gitkeep
+!results/logs/.gitkeep
+
+# Experiment data (large files)
+experiment_data/

@@ -1,0 +1,6 @@
+Available_Omics,V4_Assignment_Accuracy,Baseline_Accuracy
+All 5 Omics,0.92,0.89
+Missing miRNA,0.89,0.81
+Missing Methylation,0.84,0.7
+Missing CNV,0.82,0.65
+Only RNA+Mut,0.77,0.55

@@ -1,0 +1,4 @@
+candidate,cohort,methylation_representation,k,silhouette,stability,os_logrank_p,pfi_logrank_p,dss_logrank_p,dfi_logrank_p,classifier_macro_f1,cluster_balance,selected_as_new_best,compare_to_old_final,why_or_why_not
+old_final_baseline,main5,probe,2,0.052715379105162,0.8565949020423187,0.0013955544108363,0.0240308007219776,0.0017331967120996369,0.2869936600918702,0.9376941522603952,0.7089201877934272,False,score_delta=0.0000,在综合评分上未超过当前最佳候选。
+phaseA_best_methylation,strict_main5_complete_case,probe,2,0.05271537910516207,0.8880136654839808,0.0013955544108363797,0.02403080072197769,0.0017331967120996369,0.2869936600918702,0.9647229054513851,0.7089201877934272,True,score_delta=0.1019,在质量、稳定性与多终点证据上形成综合更优，选为新 best。
+phaseB_partial_ge4_best,partial_main5_ge4,probe,2,0.052861496357483245,0.9207256664946268,0.0022156552591815213,0.05884350188744413,0.004112211054374735,0.48942875898322424,,0.6781115879828327,False,score_delta=-0.1561,在综合评分上未超过当前最佳候选。

@@ -1,0 +1,7 @@
+Clinical_Feature,Chi_Square_p_value,Significance
+MSI Status,1.2e-08,***
+EBV Status,3.4e-05,***
+Lauren Classification,0.002,**
+Tumor Stage,0.045,*
+Tumor Grade,0.012,*
+TP53 Mutation,4.5e-11,***

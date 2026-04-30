@@ -1,0 +1,6 @@
+modality,matrix_ready_for_modeling,sample_count,feature_count,notes
+mutation,True,364,4598,phase17_main5_readiness
+cnv,True,364,24776,phase17_main5_readiness
+methylation,True,364,5000,phase17_main5_readiness
+rna,True,364,5000,phase17_main5_readiness
+mirna,True,364,1000,phase17_main5_readiness

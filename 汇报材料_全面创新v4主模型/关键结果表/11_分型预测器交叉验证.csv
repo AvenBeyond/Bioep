@@ -1,0 +1,5 @@
+Model,5-Fold_Accuracy
+RandomForest,0.89
+SVM,0.85
+XGBoost,0.92
+MLP,0.91

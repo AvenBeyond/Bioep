@@ -1,0 +1,4 @@
+model,feature_set,cv_scheme,accuracy,macro_f1,weighted_f1,auroc_ovr,notes
+RandomForest,main5_concat,RepeatedStratifiedKFold(5x2),0.9284436834094368,0.9262180848553123,0.9283285438826951,,internal_validation_only
+SVM,main5_concat,RepeatedStratifiedKFold(5x2),0.9395547945205479,0.9376941522603952,0.9394621215647934,,internal_validation_only
+XGBoost,main5_concat,RepeatedStratifiedKFold(5x2),,,,,internal_validation_only;model_failed_or_single_class_folds

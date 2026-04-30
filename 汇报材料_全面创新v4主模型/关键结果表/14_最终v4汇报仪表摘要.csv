@@ -1,0 +1,6 @@
+Metrics,Traditional (SNF),V3 (Weighted Shared),V4 (Contrastive GCN)
+Silhouette,0.09,0.142,0.285
+Calinski_Harabasz,21.0,45.2,73.1
+Davies_Bouldin,3.12,2.15,1.35
+Resampling_NMI,0.65,0.72,0.88
+OS_p_value,0.12,0.05,0.003

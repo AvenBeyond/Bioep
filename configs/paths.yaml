@@ -1,0 +1,33 @@
+project_root: .
+data:
+  raw_root: data/raw
+  interim_root: data/interim
+  processed_root: data/processed
+  mutation: data/raw/mutation/STAD_mc3_gene_level.txt
+  cnv: data/raw/cnv/Gistic2_CopyNumber_Gistic2_all_thresholded.by_genes
+  rna: data/raw/rna/HiSeqV2
+  methylation: data/raw/methylation/HumanMethylation450
+  methylation_probe_map: data/raw/methylation/probeMap_illuminaMethyl450_hg19_GPL16304_TCGAlegacy
+  mirna: data/raw/mirna/miRNA_HiSeq_gene
+  rppa: data/raw/rppa/RPPA
+  clinical_matrix: data/raw/clinical/TCGA.STAD.sampleMap_STAD_clinicalMatrix
+  survival: data/raw/clinical/survival_STAD_survival.txt
+source_data:
+  mutation: experiment_data/mc3_gene_level_STAD_mc3_gene_level.txt/STAD_mc3_gene_level.txt
+  cnv: experiment_data/TCGA.STAD.sampleMap_Gistic2_CopyNumber_Gistic2_all_thresholded.by_genes/Gistic2_CopyNumber_Gistic2_all_thresholded.by_genes
+  rna: experiment_data/TCGA.STAD.sampleMap_HiSeqV2/HiSeqV2
+  methylation: experiment_data/TCGA.STAD.sampleMap_HumanMethylation450/HumanMethylation450
+  methylation_probe_map: experiment_data/probeMap_illuminaMethyl450_hg19_GPL16304_TCGAlegacy
+  mirna: experiment_data/TCGA.STAD.sampleMap_miRNA_HiSeq_gene/miRNA_HiSeq_gene
+  rppa: experiment_data/TCGA.STAD.sampleMap_RPPA/RPPA
+  clinical_matrix: experiment_data/TCGA.STAD.sampleMap_STAD_clinicalMatrix
+  survival: experiment_data/survival_STAD_survival.txt
+results:
+  root: results
+  figures: results/figures
+  tables: results/tables
+  models: results/models
+  logs: results/logs
+  raw_file_inventory_csv: results/logs/raw_file_inventory.csv
+  raw_file_inventory_json: results/logs/raw_file_inventory.json
+  raw_copy_verification_csv: results/logs/raw_copy_verification.csv

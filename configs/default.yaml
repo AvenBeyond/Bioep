@@ -1,0 +1,39 @@
+project_name: TCGA-STAD-multiomics-subtyping
+random_seed: 42
+k_range: [2, 3, 4, 5, 6]
+
+modalities:
+  main_modalities: [mutation, cnv, methylation, rna, mirna]
+  optional_modalities: [rppa]
+  use_rppa_in_main_analysis: false
+  use_partial_fusion_fallback: true
+
+preprocessing:
+  min_feature_nonzero_rate: 0.02
+  max_missing_rate: 0.30
+  variance_filter_quantile: 0.75
+
+evaluation:
+  bootstrap_repeats: 100
+  consensus_repeats: 50
+  classifier_cv_repeats: 5
+  classifier_cv_folds: 5
+
+data_integrity:
+  scan_encoding_bytes: 65536
+  preview_rows: 2
+  preview_columns: 12
+  hash_algorithm: sha256
+  hash_chunk_bytes: 4194304
+  full_scan_required: true
+
+proposed_method:
+  alpha: 1.0
+  beta: 1.0
+  delta: 1.0
+  gamma: 1.0
+  k_score_weights:
+    silhouette: 0.35
+    consensus_stability: 0.25
+    clinical_separation: 0.20
+    subtype_balance: 0.20

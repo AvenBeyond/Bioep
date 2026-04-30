@@ -1,0 +1,9 @@
+model,true_class,pred_class,count
+RandomForest,0,0,141
+RandomForest,0,1,12
+RandomForest,1,0,14
+RandomForest,1,1,197
+SVM,0,0,142
+SVM,0,1,11
+SVM,1,0,13
+SVM,1,1,198

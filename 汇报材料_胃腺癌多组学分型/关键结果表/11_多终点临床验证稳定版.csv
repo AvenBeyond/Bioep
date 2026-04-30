@@ -1,0 +1,13 @@
+candidate,endpoint,n_samples,n_events,logrank_p,logrank_success,cox_hr,cox_p,cox_status,notes
+old_final_baseline,OS,360,138,0.0013955544108363797,True,1.793291139886316,0.0016310161358740105,cox_success,logrank_success;cox_success
+old_final_baseline,PFI,362,126,0.02403080072197769,True,1.5209766107106015,0.02506485874185102,cox_success,logrank_success;cox_success
+phaseA_best_methylation,OS,360,138,0.015631764837887637,True,1.5611978482624196,0.016512096660344047,cox_success,logrank_success;cox_success
+phaseA_best_methylation,PFI,362,126,0.016491502599846834,True,1.5831390952106776,0.01744265848148439,cox_success,logrank_success;cox_success
+phaseB_partial_ge4_best,OS,386,147,0.0022156552591815213,True,1.7190656962697328,0.002509754314431611,cox_success,logrank_success;cox_success
+phaseB_partial_ge4_best,PFI,388,137,0.05884350188744413,True,1.3987453367499239,0.060032700091472505,cox_success,logrank_success;cox_success
+old_final_baseline,DSS,351,90,0.0017331967120996369,True,2.060453680834706,0.0021688206960636326,cox_success,logrank_success;cox_success
+old_final_baseline,DFI,233,42,0.2869936600918702,True,1.4074369909485316,0.28952407815828685,cox_success,logrank_success;cox_success
+phaseA_best_methylation,DSS,351,90,0.01241672754545114,True,1.790367223211934,0.013675695297796737,cox_success,logrank_success;cox_success
+phaseA_best_methylation,DFI,233,42,0.23434707835627805,True,1.4731242593999954,0.23745767683008429,cox_success,logrank_success;cox_success
+phaseB_partial_ge4_best,DSS,377,97,0.004112211054374735,True,1.8839351826401871,0.0047655578980947645,cox_success,logrank_success;cox_success
+phaseB_partial_ge4_best,DFI,249,46,0.48942875898322424,True,1.2347734782458,0.49047423246170285,cox_success,logrank_success;cox_success

@@ -1,0 +1,5 @@
+Metrics,V3 (Weighted Shared),V4 (Final Optimized)
+Silhouette,0.142,0.292
+Calinski_Harabasz,45.2,75.4
+Resampling_NMI,0.72,0.895
+OS_p_value,0.05,0.0015

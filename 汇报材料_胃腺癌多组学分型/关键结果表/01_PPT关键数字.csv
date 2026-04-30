@@ -1,0 +1,11 @@
+key,value
+main5_intersection_samples,364
+main5_plus_rppa_intersection_samples,288
+rppa_reduction_ratio,0.20879120879120883
+partial_fusion_coverage,not_fully_implemented_in_current_codebase
+final_selected_method,early_fusion_kmeans
+final_selected_k,2
+main_performance_macro_f1,0.9376941522603952
+main_performance_accuracy,0.9395547945205479
+main_survival_separation_os_p,0.0013955544108363797
+main_survival_separation_pfi_p,0.02403080072197769
